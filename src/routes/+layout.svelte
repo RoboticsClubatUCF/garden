@@ -1,6 +1,10 @@
 <script lang="ts">
+	// Import Styles through JS
 	import '../app.postcss';
+	import 'vidstack/player/styles/base.css';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+
+	// end
 
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
